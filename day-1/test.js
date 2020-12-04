@@ -8,6 +8,8 @@ numbersByLine.forEach((number, i, arr) => {
 });
 let numberSet = {};
 
+//part 1
+
 // numbersByLine.forEach((number) => {
 //   for (let key in numberSet) {
 //     console.log(key);
@@ -18,6 +20,8 @@ let numberSet = {};
 //     }
 //   }
 // });
+
+//part 2
 
 for (let i = 0; i < numbersByLine.length; i++) {
   for (let j = 1; j < numbersByLine.length; j++) {
